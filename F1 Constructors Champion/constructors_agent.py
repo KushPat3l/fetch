@@ -21,7 +21,7 @@ async def get_constructors_table_by_year(year):
     search_url = "https://f1-motorsport-data.p.rapidapi.com/standings-controllers"
     search_querystring = {"year": year}
     headers = {
-        "x-rapidapi-key" : "4ff9a910bcmsh8b61448da38e5dep14f78fjsn3acc6acb49aa",
+        "x-rapidapi-key" : "",
         "x-rapidapi-host" : "f1-motorsport-data.p.rapidapi.com"
     }
 
