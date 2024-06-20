@@ -28,6 +28,7 @@ async def get_constructors_table_by_year(year):
     search_response = requests.get(search_url, headers=headers, params=search_querystring)
     if search_response.status_code == 200 and search_response.json():
         leader = search_response.json()['standings']['entries'][0]['team']['displayName']
+        return leader
     else:
         return f"Failed to retrieve constructors leader for {year}"
     
