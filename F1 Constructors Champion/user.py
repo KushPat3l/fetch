@@ -20,7 +20,7 @@ async def agent_address(ctx: Context):
 
 @user.on_interval(period=30, messages=Code)
 async def interval(ctx: Context):
-    constructors_year = str(input('Please enter the year you want the F1 constructors champion for.'))
+    constructors_year = str(input('Please enter the year you want the F1 constructors champion for: '))
     await ctx.send(constructors_agent, Code(code = constructors_year))
 
 @user.on_message(Response)
