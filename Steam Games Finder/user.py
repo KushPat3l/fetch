@@ -3,7 +3,7 @@ from uagents.setup import fund_agent_if_low
 from model import Response, Code
 import os
 
-constructors_agent = "agent1qgeq738s5s5xf7awnpkhswlwhmun5zft33ctj3t0sy6p7gws3dyuq30uaz4"
+constructors_agent = ""
 
 user = Agent(
     name="user",
