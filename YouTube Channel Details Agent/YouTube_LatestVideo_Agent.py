@@ -12,7 +12,7 @@ latestvideo_protocol = Protocol("YouTube LatestVideo Protocol")
 
 async def latestvid_finder(channel_id):
     headers = {
-        "x-rapidapi-key": "4ff9a910bcmsh8b61448da38e5dep14f78fjsn3acc6acb49aa",
+        "x-rapidapi-key": "",
         "x-rapidapi-host": "youtube-data8.p.rapidapi.com"
         }
     url_subscribers = "https://youtube-data8.p.rapidapi.com/channel/videos"
